@@ -46,8 +46,12 @@ print("David swam \(david.distance) meters in \(david.time) seconds, while doing
  
 
 //:  Now add an instance method to `SwimmingWorkout` called `save` that takes no parameters and has no return value. This method will add its instance to the static array on `SwimmingWorkout` that corresponds to its swimming stroke. Inside `save` write a switch statement that switches on the instance's `stroke` property, and appends `self` to the proper array. Call save on the two instances of `SwimmingWorkout` that you created above, and then print the array(s) to which they should have been added to see if your `save()` method works properly.
-
-
+daniel.save()
+david.save()
+print(SwimmingWorkout.freestyle)
+print(SwimmingWorkout.butterfly)
+print(SwimmingWorkout.backstroke)
+print(SwimmingWorkout.breaststroke)
 /*:
  _Copyright © 2021 Apple Inc._
 
