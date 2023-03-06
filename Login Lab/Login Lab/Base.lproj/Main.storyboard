@@ -36,7 +36,7 @@
                                         <rect key="frame" x="0.0" y="160" width="374" height="30"/>
                                         <state key="normal" title="Login"/>
                                         <connections>
-                                            <segue destination="g7a-qX-RCd" kind="show" id="hmB-ZP-Xup"/>
+                                            <segue destination="g7a-qX-RCd" kind="show" identifier="forgotUserName" id="hmB-ZP-Xup"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4nU-MP-oZF">
@@ -69,13 +69,13 @@
                         <outlet property="forgotPassWord" destination="e6r-3j-sje" id="yMp-Jb-60n"/>
                         <outlet property="forgotUserName" destination="4nU-MP-oZF" id="FbD-0P-X1p"/>
                         <outlet property="username" destination="qEd-i9-FDD" id="lV3-IU-Tuz"/>
-                        <outlet property="usernameInput" destination="qEd-i9-FDD" id="oep-4r-7Nq"/>
-                        <segue destination="g7a-qX-RCd" kind="show" id="EZC-V7-tM7"/>
+                        <segue destination="g7a-qX-RCd" kind="show" identifier="forgotPassWord" id="EZC-V7-tM7"/>
+                        <segue destination="g7a-qX-RCd" kind="show" id="fnw-y4-0Q7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="822" y="88"/>
+            <point key="canvasLocation" x="868" y="88"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DRZ-pN-DhM">
@@ -113,7 +113,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="EZC-V7-tM7"/>
+        <segue reference="fnw-y4-0Q7"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
