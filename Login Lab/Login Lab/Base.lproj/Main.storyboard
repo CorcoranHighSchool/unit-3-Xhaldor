@@ -19,13 +19,10 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="46" translatesAutoresizingMaskIntoConstraints="NO" id="OWQ-Mw-cG5">
                                 <rect key="frame" x="20" y="277" width="374" height="342"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qEd-i9-FDD">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V9l-RA-7nF">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <action selector="usernameInput:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="XVw-0n-LPH"/>
-                                        </connections>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tej-BX-CcW">
                                         <rect key="frame" x="0.0" y="80" width="374" height="34"/>
@@ -68,7 +65,7 @@
                     <connections>
                         <outlet property="forgotPassWord" destination="e6r-3j-sje" id="yMp-Jb-60n"/>
                         <outlet property="forgotUserName" destination="4nU-MP-oZF" id="FbD-0P-X1p"/>
-                        <outlet property="username" destination="qEd-i9-FDD" id="lV3-IU-Tuz"/>
+                        <outlet property="username" destination="V9l-RA-7nF" id="01m-9O-VK1"/>
                         <segue destination="g7a-qX-RCd" kind="show" identifier="forgotPassWord" id="EZC-V7-tM7"/>
                         <segue destination="g7a-qX-RCd" kind="show" id="fnw-y4-0Q7"/>
                     </connections>
