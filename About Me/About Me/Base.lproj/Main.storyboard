@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Story-->
+        <scene sceneID="XEk-Y8-vLN">
+            <objects>
+                <viewController id="Mqo-0c-czo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="crr-ml-r3d">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="I am a programmer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ppf-QB-rdt">
+                                <rect key="frame" x="135" y="234" width="144" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="I am a student" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ptH-As-c4D">
+                                <rect key="frame" x="153" y="342" width="108" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="I am an entrepeneur" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3v-2n-82q">
+                                <rect key="frame" x="131" y="292" width="152.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4UD-E6-81z"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="ppf-QB-rdt" firstAttribute="centerX" secondItem="crr-ml-r3d" secondAttribute="centerX" id="Omv-Di-jLA"/>
+                            <constraint firstItem="ptH-As-c4D" firstAttribute="centerX" secondItem="crr-ml-r3d" secondAttribute="centerX" id="mBb-EE-eQx"/>
+                            <constraint firstItem="f3v-2n-82q" firstAttribute="centerX" secondItem="crr-ml-r3d" secondAttribute="centerX" id="uDM-mg-jM7"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Story" image="book.fill" catalog="system" badgeValue="Story" selectedImage="book" id="tjy-WK-Ual"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E0H-Lw-fSw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1216" y="86"/>
+        </scene>
+        <!--Extra Info-->
+        <scene sceneID="SH4-Xs-VU9">
+            <objects>
+                <viewController id="s1X-CQ-pzG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oZI-hd-CUd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="I am funny" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="chJ-DU-CUo">
+                                <rect key="frame" x="167.5" y="241" width="79" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="I am smart" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xtc-0s-erx">
+                                <rect key="frame" x="167" y="349" width="80.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="I am kind" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2l2-Jt-sGR">
+                                <rect key="frame" x="173" y="299" width="68.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CFw-GT-MbZ"/>
+                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                        <constraints>
+                            <constraint firstItem="chJ-DU-CUo" firstAttribute="centerX" secondItem="oZI-hd-CUd" secondAttribute="centerX" id="8SQ-k1-Mui"/>
+                            <constraint firstItem="2l2-Jt-sGR" firstAttribute="centerX" secondItem="oZI-hd-CUd" secondAttribute="centerX" id="BZX-jw-RNa"/>
+                            <constraint firstItem="Xtc-0s-erx" firstAttribute="centerX" secondItem="oZI-hd-CUd" secondAttribute="centerX" id="gao-jh-RE3"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Extra Info" image="info.circle.fill" catalog="system" badgeValue="More" selectedImage="info.circle" id="Qkp-0F-FhO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MFe-H2-sSy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1968" y="86"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="86L-uR-OJ4">
+            <objects>
+                <tabBarController id="MQl-r7-suz" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Xwr-Vh-hTh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="s1X-CQ-pzG" kind="relationship" relationship="viewControllers" id="OuM-sE-Rso"/>
+                        <segue destination="Mqo-0c-czo" kind="relationship" relationship="viewControllers" id="1E9-y6-8v4"/>
+                        <segue destination="OXm-iF-mT7" kind="relationship" relationship="viewControllers" id="Xdh-sP-JE7"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fLZ-eo-sep" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="620" y="-637"/>
+        </scene>
+        <!--About Me-->
+        <scene sceneID="yXd-9n-ePO">
+            <objects>
+                <viewController id="OXm-iF-mT7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DLm-vU-Nqr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="I am Josue Manzo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P89-yb-PIr">
+                                <rect key="frame" x="138.5" y="265" width="137" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="I am male" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nmj-yG-KRM">
+                                <rect key="frame" x="170.5" y="373" width="73" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="I am 17 years old" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZEm-e3-6pD">
+                                <rect key="frame" x="144" y="323" width="126.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="UKq-42-e6u"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="Nmj-yG-KRM" firstAttribute="centerX" secondItem="DLm-vU-Nqr" secondAttribute="centerX" id="74V-cP-VkL"/>
+                            <constraint firstItem="ZEm-e3-6pD" firstAttribute="centerX" secondItem="DLm-vU-Nqr" secondAttribute="centerX" id="AP4-a5-ib1"/>
+                            <constraint firstItem="P89-yb-PIr" firstAttribute="centerX" secondItem="DLm-vU-Nqr" secondAttribute="centerX" id="WtL-29-S41"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="About Me" image="person.crop.circle.fill" catalog="system" badgeValue="Me" selectedImage="person.crop.circle" id="mlh-wS-Aph"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qrs-8k-fl5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="470" y="86"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="book" catalog="system" width="128" height="102"/>
+        <image name="book.fill" catalog="system" width="128" height="102"/>
+        <image name="info.circle" catalog="system" width="128" height="121"/>
+        <image name="info.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="person.crop.circle" catalog="system" width="128" height="121"/>
+        <image name="person.crop.circle.fill" catalog="system" width="128" height="121"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
