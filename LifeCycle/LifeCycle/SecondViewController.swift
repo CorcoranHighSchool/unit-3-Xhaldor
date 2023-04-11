@@ -1,36 +1,35 @@
 //
-//  ViewController.swift
+//  SecondViewController.swift
 //  LifeCycle
 //
-//  Created by Josue Manzo Gomez on 3/21/23.
+//  Created by Josue Manzo Gomez on 3/27/23.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        print("ViewController - View Did Load")
+        print("SecondViewController - View Did Load")
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        print("ViewController - View Will Appear")
+        print("SecondViewController - View Will Appear")
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        print("ViewController - View Did Appear")
+        print("SecondViewController - View Did Appear")
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        print("ViewController - View Will Dissapear")
+        print("SecondViewController - View Will Dissapear")
     }
     
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
-        print("ViewController - View Did Appear")
+        print("SecondViewController - View Did Appear")
     }
+    
 }
-
